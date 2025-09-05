@@ -1,0 +1,8 @@
+/* .container-About2 {
+  background-color: rgb(90, 154, 33); 
+} */
+
+.container-About2 {
+  background-color: rgba(90, 154, 33, 0.5); /* 50% transparent */
+}
+

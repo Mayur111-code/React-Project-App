@@ -1,0 +1,85 @@
+.carousel-img {
+  height: 100vh;        /* Full screen height */
+  object-fit: cover;    /* Crop image instead of stretching */
+}
+
+
+.learn-morebtn{
+margin-bottom: 10px;
+background-color: yellowgreen;
+font-size:20px;
+font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Buy-Rent-btns{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.container-center{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+
+/* Section Base */
+.ftco-section {
+  background: #f8f9fa;
+}
+
+.heading-section .subheading {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #28a745;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.heading-section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+}
+
+/* Category Card */
+.services {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.services .icon {
+  font-size: 40px;
+  color: #28a745;
+  margin-bottom: 15px;
+}
+
+.services h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.services:hover {
+  background: #28a745;
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.services:hover .icon {
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .services {
+    margin-bottom: 20px;
+  }
+}

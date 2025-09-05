@@ -1,0 +1,25 @@
+
+#Navbar{
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-p{
+    padding-top: 2px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.nav-toggle{
+    background-color: white;
+}
+.free-call{
+    color: rgb(120, 197, 4);
+}
+
+.sub-btn{
+  background-color: rgb(135, 189, 27);
+}
+
+
+

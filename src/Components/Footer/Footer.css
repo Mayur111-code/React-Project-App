@@ -1,0 +1,85 @@
+/* Footer Base */
+footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #111 !important;
+  color: #ddd;
+  line-height: 1.6;
+}
+
+/* Headings */
+footer h5,
+footer h6 {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* Links */
+footer a {
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #f39c12 !important; /* golden accent */
+}
+
+/* Social Icons */
+footer .d-flex a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #222;
+  transition: all 0.3s ease;
+}
+
+footer .d-flex a:hover {
+  background: #f39c12;
+  color: #fff !important;
+}
+
+/* Contact Info */
+footer .list-unstyled li {
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+footer .list-unstyled li span {
+  display: inline-block;
+  line-height: 1.4;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+.footer-bottom a {
+  color: #28a745; /* bootstrap success green */
+}
+
+.footer-bottom a:hover {
+  color: #f39c12;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  footer {
+    text-align: center;
+  }
+
+  footer .d-flex {
+    justify-content: center;
+  }
+
+  footer .col-md-3,
+  footer .col-md-2 {
+    margin-bottom: 2rem;
+  }
+}
