@@ -1,4 +1,4 @@
-
+/* 
 #Navbar{
   background-color: rgba(0, 0, 0, 0.3);
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -22,4 +22,22 @@
 }
 
 
+ */
+
+
+ #Navbar {
+  background-color: transparent; 
+  box-shadow: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-p {
+  padding-top: 2px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.sub-btn {
+  background-color: rgb(135, 189, 27);
+}
 

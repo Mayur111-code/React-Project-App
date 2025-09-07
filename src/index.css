@@ -2,12 +2,11 @@ a{
     text-decoration: none;
 }
 
-/* Remove global horizontal scroll */
 html, body {
   overflow-x: hidden;
+  background-color: black;
 }
 
-/* Fix for all images */
 img {
   max-width: 100%;
   height: auto;

@@ -9,8 +9,8 @@ export default function NavBar() {
 <>
     <Navbar expand="lg" bg="" className="shadow-sm" sticky="top" id="Navbar">
       <Container>
-        <Navbar.Brand as={Link} to="/" className="fw-bold text-light">
-          Oakberry <span><p className="nav-p">REAL ESTATE AGENCY </p></span>
+        <Navbar.Brand as={Link} to="/" className="fw-bold text-warning">
+          Infina Estate <span><p className="nav-p text-info">REAL ESTATE AGENCY </p></span>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="main-nav" style={{ backgroundColor: "white" }} />
