@@ -3,6 +3,7 @@ import BlogData from "../../assets/Blogdata";
 import SectionHouse from "../Middlesection/SectionHouseimg";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Houseimg2 from "../Middlesection/Houseimg2";
 
 const Blog = () => {
   const [hover, setHover] = useState(false);
@@ -13,7 +14,7 @@ const Blog = () => {
 
   return (
     <>
-      {/* Heading */}
+     
       <div
         style={{
           textAlign: "center",
@@ -37,7 +38,7 @@ const Blog = () => {
       </div>
 
      
-        <SectionHouse />
+        
   
 
     
@@ -76,6 +77,9 @@ const Blog = () => {
           ))}
         </div>
       </div>
+
+
+      <Houseimg2/>
     </>
   );
 };

@@ -37,7 +37,7 @@ const Properties = () => {
         </h1>
       </div>
 
-      <SectionHouse />
+      
       <Searchcomp />
       <Feturedcard />
       <Feturedcard />

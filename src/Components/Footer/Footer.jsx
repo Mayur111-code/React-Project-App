@@ -1,93 +1,137 @@
 import React from "react";
-import { FaTwitter, FaFacebookF, FaInstagram, FaMapMarkerAlt, FaPhoneAlt, FaPaperPlane } from "react-icons/fa";
-import './Footer.css'
+import {
+  FaTwitter,
+  FaFacebookF,
+  FaInstagram,
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaPaperPlane,
+} from "react-icons/fa";
+import "./Footer.css";
+
 const Footer = () => {
   return (
-    <>    <footer className="bg-dark text-light pt-5 pb-3">
-      <div className="container">
-        <div className="row">
-        
-          <div className="col-md-3 mb-4">
-            <h5 className="fw-bold">Oakberry</h5>
-            <p className="small">
-              A small river named Duden flows by their place and supplies it
-              with the necessary regelialia.
-            </p>
-            <div className="d-flex gap-3">
-              <a href="#" className="text-success fs-5"><FaTwitter /></a>
-              <a href="#" className="text-success fs-5"><FaFacebookF /></a>
-              <a href="#" className="text-success fs-5"><FaInstagram /></a>
+    <>
+      <footer className="bg-dark text-light pt-5 pb-3">
+        <div className="container">
+          <div className="row">
+            {/* Brand & About */}
+            <div className="col-md-3 mb-4">
+              <h5 className="fw-bold">Oakberry</h5>
+              <p className="small">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia.
+              </p>
+              <div className="d-flex gap-3 social-icons">
+                <a href="#" className="text-success fs-5">
+                  <FaTwitter />
+                </a>
+                <a href="#" className="text-success fs-5">
+                  <FaFacebookF />
+                </a>
+                <a href="#" className="text-success fs-5">
+                  <FaInstagram />
+                </a>
+              </div>
+            </div>
+
+            {/* Offers */}
+            <div className="col-md-2 mb-4">
+              <h6 className="fw-bold">Offers</h6>
+              <ul className="list-unstyled small">
+                <li>
+                  <a href="#">Properties</a>
+                </li>
+                <li>
+                  <a href="#">Agents</a>
+                </li>
+                <li>
+                  <a href="#">Locations</a>
+                </li>
+                <li>
+                  <a href="#">Clients Support</a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Company */}
+            <div className="col-md-2 mb-4">
+              <h6 className="fw-bold">Company</h6>
+              <ul className="list-unstyled small">
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#" className="highlight-link">
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Quick Links */}
+            <div className="col-md-2 mb-4">
+              <h6 className="fw-bold">Quick Links</h6>
+              <ul className="list-unstyled small">
+                <li>
+                  <a href="#">Terms & Conditions</a>
+                </li>
+                <li>
+                  <a href="#">User's Guide</a>
+                </li>
+                <li>
+                  <a href="#">Support Center</a>
+                </li>
+                <li>
+                  <a href="#" className="highlight-link">
+                    Press Info
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Contact */}
+            <div className="col-md-3 mb-4">
+              <h6 className="fw-bold">Have a Questions?</h6>
+              <ul className="list-unstyled small">
+                <li className="d-flex align-items-start gap-2 mb-2">
+                  <FaMapMarkerAlt className="text-success mt-1" />
+                  <span>
+                    203 Fake St. Mountain View, San Francisco, California, USA
+                  </span>
+                </li>
+                <li className="d-flex align-items-center gap-2 mb-2">
+                  <FaPhoneAlt className="text-success" />
+                  <span>+2 392 3929 210</span>
+                </li>
+                <li className="d-flex align-items-center gap-2">
+                  <FaPaperPlane className="text-success" />
+                  <span>info@yourdomain.com</span>
+                </li>
+              </ul>
             </div>
           </div>
 
-      
-          <div className="col-md-2 mb-4">
-            <h6 className="fw-bold">Offers</h6>
-            <ul className="list-unstyled small">
-              <li><a href="#" className="text-light text-decoration-none">Properties</a></li>
-              <li><a href="#" className="text-light text-decoration-none">Agents</a></li>
-              <li><a href="#" className="text-light text-decoration-none">Locations</a></li>
-              <li><a href="#" className="text-light text-decoration-none">Clients Support</a></li>
-            </ul>
-          </div>
-
-        
-          <div className="col-md-2 mb-4">
-            <h6 className="fw-bold">Company</h6>
-            <ul className="list-unstyled small">
-              <li><a href="#" className="text-light text-decoration-none">Home</a></li>
-              <li><a href="#" className="text-light text-decoration-none">About</a></li>
-              <li><a href="#" className="text-success text-decoration-none">Blog</a></li>
-              <li><a href="#" className="text-light text-decoration-none">Contact Us</a></li>
-            </ul>
-          </div>
-
-          <div className="col-md-2 mb-4">
-            <h6 className="fw-bold">Quick Links</h6>
-            <ul className="list-unstyled small">
-              <li><a href="#" className="text-light text-decoration-none">Terms & Conditions</a></li>
-              <li><a href="#" className="text-light text-decoration-none">User's Guide</a></li>
-              <li><a href="#" className="text-light text-decoration-none">Support Center</a></li>
-              <li><a href="#" className="text-success text-decoration-none">Press Info</a></li>
-            </ul>
-          </div>
-
-         
-          <div className="col-md-3 mb-4">
-            <h6 className="fw-bold">Have a Questions?</h6>
-            <ul className="list-unstyled small">
-              <li className="d-flex align-items-start gap-2 mb-2">
-                <FaMapMarkerAlt className="text-success mt-1" />
-                <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
-              </li>
-              <li className="d-flex align-items-center gap-2 mb-2">
-                <FaPhoneAlt className="text-success" />
-                <span>+2 392 3929 210</span>
-              </li>
-              <li className="d-flex align-items-center gap-2">
-                <FaPaperPlane className="text-success" />
-                <span>info@yourdomain.com</span>
-              </li>
-            </ul>
+          {/* Bottom Line */}
+          <div className="footer-bottom text-center">
+            Copyright ©2025 All rights reserved | ❤️ by
+            <a
+              href="https://github.com/Mayur111-code"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mayur111-code
+            </a>
           </div>
         </div>
-
-        <div className="text-center border-top border-secondary pt-3 mt-3 small">
-  Copyright ©2025 All rights reserved | ❤️ by Mayur111-code. 
-  <a 
-    href="https://github.com/Mayur111-code" 
-    className="text-success text-decoration-none ms-1" 
-    target="_blank" 
-    rel="noopener noreferrer"
-  >
-    Mayur111-code.
-  </a>
-</div>
-
-      </div>
-    </footer>
+      </footer>
     </>
-
   );
 };
 

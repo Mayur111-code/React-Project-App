@@ -8,6 +8,7 @@ import Testimonials from "./Testimonials";
 import About4 from "./About4";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Houseimg2 from "../Middlesection/Houseimg2";
 
 const About = () => {
   const [hover, setHover] = useState(false);
@@ -42,10 +43,10 @@ const About = () => {
         </h1>
       </div>
 
-      <SectionHouseimg data-aos="zoom-in" />
+      
 
-      {/* Home Button */}
-      <div className="d-flex justify-content-center py-5" data-aos="fade-up">
+      
+      {/* <div className="d-flex justify-content-center py-5" data-aos="fade-up">
         <button
           className="btn btn-info btn-sm fw-bold px-4 rounded-pill shadow-sm"
           onClick={() => nav("/")}
@@ -57,14 +58,14 @@ const About = () => {
         >
           Home
         </button>
-      </div>
+      </div> */}
 
-      {/* Import components with AOS */}
+     
       <div data-aos="fade-up">
         <AboutSection />
       </div>
 
-      <SectionHouseimg data-aos="fade-up" />
+      <Houseimg2/>
 
       <div data-aos="fade-right">
         <About2 />

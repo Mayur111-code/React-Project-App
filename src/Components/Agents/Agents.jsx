@@ -25,7 +25,7 @@ const Properties = () => {
       >
         <h1
           style={{
-            color: hover ? "#1549e5ff" : "black", // hover color change
+            color: hover ? "#1549e5ff" : "black", 
             fontWeight: "bolder",
             cursor: "pointer",
             transition: "all 0.3s ease",
@@ -33,13 +33,14 @@ const Properties = () => {
           onMouseEnter={() => setHover(true)}
           onMouseLeave={() => setHover(false)}
         >
-          Properties
+         Agents
         </h1>
       </div>
 
       {/* Other Components */}
-      <SectionHouse />
-      <Searchcomp />
+     
+     <Searchcomp style={{ marginTop: '10px' }} />
+
       <Feturedcard />
       <Feturedcard />
       <Pagesno />

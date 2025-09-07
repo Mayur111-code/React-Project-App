@@ -1,7 +1,57 @@
-.Header{
-     display:  flex;
-     font-family: 'Courier New', Courier, monospace;
-     background-color: rgb(8, 22, 55);
-     padding: 13px;
-    
+/* Base Header */
+.Header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(8, 22, 55);
+  padding: 10px 0;
+  overflow-x: hidden; /* fix horizontal scroll */
+}
+
+/* Icons */
+.Header .icon {
+  width: 40px;
+  height: 40px;
+  background: #222;
+  color: #28a745; /* bootstrap success green */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+/* Headings / Labels */
+.Header p {
+  margin: 0;
+  font-weight: 600;
+  color: #fff;
+}
+
+.Header small {
+  color: #bbb;
+  font-size: 0.85rem;
+}
+
+/* Links inside "Connect with us" */
+.Header a {
+  color: #ddd;
+  transition: color 0.3s ease;
+}
+
+.Header a:hover {
+  color: #f39c12; /* golden accent like footer */
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .Header {
+    text-align: center;
+  }
+
+  .Header .row {
+    flex-direction: column;
+  }
+
+  .Header .col-12 {
+    margin-bottom: 15px;
+  }
 }

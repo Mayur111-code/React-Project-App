@@ -90,9 +90,10 @@
 import React, { useEffect } from "react";
 import { FaBuilding, FaTree, FaHome, FaIndustry } from "react-icons/fa";
 import Featured from "./Featured";
-import SectionHouse from "./SectionHouseimg";
+// import SectionHouse from "./SectionHouseimg";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Houseimg2 from "./Houseimg2";
 
 const places = [
   { id: 1, name: "New York", properties: 200 },
@@ -169,7 +170,8 @@ const Newsection = () => {
       </section>
 
       <Featured data-aos="fade-up" />
-      <SectionHouse data-aos="fade-up" />
+      {/* <SectionHouse data-aos="fade-up" /> */}
+      <Houseimg2/>
     </>
   );
 };

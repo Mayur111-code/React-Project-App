@@ -16,6 +16,8 @@ footer h6 {
 
 /* Links */
 footer a {
+  color: #ccc;
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
@@ -23,8 +25,12 @@ footer a:hover {
   color: #f39c12 !important; /* golden accent */
 }
 
+.highlight-link {
+  color: #28a745 !important;
+}
+
 /* Social Icons */
-footer .d-flex a {
+footer .social-icons a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +41,7 @@ footer .d-flex a {
   transition: all 0.3s ease;
 }
 
-footer .d-flex a:hover {
+footer .social-icons a:hover {
   background: #f39c12;
   color: #fff !important;
 }
@@ -61,7 +67,9 @@ footer .list-unstyled li span {
 }
 
 .footer-bottom a {
-  color: #28a745; /* bootstrap success green */
+  margin-left: 5px;
+  font-weight: 500;
+  color: #28a745;
 }
 
 .footer-bottom a:hover {
@@ -74,7 +82,7 @@ footer .list-unstyled li span {
     text-align: center;
   }
 
-  footer .d-flex {
+  footer .social-icons {
     justify-content: center;
   }
 
