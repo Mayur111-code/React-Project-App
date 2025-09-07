@@ -1,4 +1,3 @@
-
 import work_1 from '../assets/work_1.jpg';
 import work_2 from '../assets/work_2.jpg';
 import work_3 from '../assets/work_3.jpg';
@@ -10,7 +9,7 @@ import Sarah_Lee from '../assets/Sarah_Lee.jpg';
 import Emily_Clark from '../assets/Emily_Clark.jpg';
 import Michael_Brown from '../assets/Michael_Brown.jpg';
 
-const Carddata = [
+const Secoundcard = [
   {
     id: 1,
     img: work_1,
@@ -69,4 +68,4 @@ const Carddata = [
   },
 ];
 
-export default Carddata;
+export default Secoundcard;

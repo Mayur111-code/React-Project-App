@@ -6,7 +6,7 @@ const Footer = () => {
     <>    <footer className="bg-dark text-light pt-5 pb-3">
       <div className="container">
         <div className="row">
-          {/* Logo & About */}
+        
           <div className="col-md-3 mb-4">
             <h5 className="fw-bold">Oakberry</h5>
             <p className="small">
@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Offers */}
+      
           <div className="col-md-2 mb-4">
             <h6 className="fw-bold">Offers</h6>
             <ul className="list-unstyled small">
@@ -31,7 +31,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Company */}
+        
           <div className="col-md-2 mb-4">
             <h6 className="fw-bold">Company</h6>
             <ul className="list-unstyled small">
@@ -42,7 +42,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Quick Links */}
           <div className="col-md-2 mb-4">
             <h6 className="fw-bold">Quick Links</h6>
             <ul className="list-unstyled small">
@@ -53,7 +52,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact Info */}
+         
           <div className="col-md-3 mb-4">
             <h6 className="fw-bold">Have a Questions?</h6>
             <ul className="list-unstyled small">
@@ -73,11 +72,18 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Footer Bottom */}
         <div className="text-center border-top border-secondary pt-3 mt-3 small">
-          Copyright ©2025 All rights reserved | This template is made with ❤️ by Mayur 
-          <a href="https://colorlib.com" className="text-success text-decoration-none ms-1">Colorlib</a>
-        </div>
+  Copyright ©2025 All rights reserved | ❤️ by Mayur111-code. 
+  <a 
+    href="https://github.com/Mayur111-code" 
+    className="text-success text-decoration-none ms-1" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    Mayur111-code.
+  </a>
+</div>
+
       </div>
     </footer>
     </>

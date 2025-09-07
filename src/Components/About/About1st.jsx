@@ -24,7 +24,7 @@ const AboutSection = () => {
           <img
             src={about}
             alt="About Us"
-            // className="img-fluid rounded"
+            
              style={{width:'500px'}}
           />
         </div>
