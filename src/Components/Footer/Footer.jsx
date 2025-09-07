@@ -103,7 +103,7 @@ const Footer = () => {
                 <li className="d-flex align-items-start gap-2 mb-2">
                   <FaMapMarkerAlt className="text-success mt-1" />
                   <span>
-                    203 Fake St. Mountain View, San Francisco, California, USA
+                    210 Downing Street, London, United Kingdom
                   </span>
                 </li>
                 <li className="d-flex align-items-center gap-2 mb-2">
@@ -112,7 +112,9 @@ const Footer = () => {
                 </li>
                 <li className="d-flex align-items-center gap-2">
                   <FaPaperPlane className="text-success" />
-                  <span>info@yourdomain.com</span>
+                  <span>
+                     <a href="mailto:mayurborse7440@gmail.com" className="text-light text-decoration-none">  info@infina.com</a>
+                  </span>
                 </li>
               </ul>
             </div>

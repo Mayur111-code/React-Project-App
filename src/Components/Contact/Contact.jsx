@@ -38,7 +38,7 @@ const Contact = () => {
                     <input
                       type="tel"
                       className="form-control"
-                      placeholder="+91 98765 43210"
+                      placeholder="+1 234 456 78910"
                     />
                   </div>
                   <div className="col-md-6">

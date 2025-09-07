@@ -32,7 +32,7 @@ const AboutSection = () => {
         {/* Right Content */}
         <div className="col-md-6">
           <h6 className="text-success fw-bold">ABOUT US</h6>
-          <h2 className="fw-bold">Oakberry A Real Estate Company</h2>
+          <h2 className="fw-bold">Infina A Real Estate Company</h2>
           <p className="text-muted">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts. Separated they

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import SectionHouseimg from "../Middlesection/SectionHouseimg";
 import AboutSection from "./About1st";
 import About2 from "./About2";
 import About3 from "./About3";

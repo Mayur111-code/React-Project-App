@@ -19,7 +19,7 @@ const Houseimg2 = () => {
         
         {/* Play Button */}
         <a
-          href="https://www.youtube.com/watch?v=ysz5S6PUM-U" // your YouTube link
+          href="https://youtube.com/shorts/j5TpubPGvyM?si=zA9bAH3WajK_kGkJ"
           target="_blank"
           rel="noopener noreferrer"
           className="play-btn"
