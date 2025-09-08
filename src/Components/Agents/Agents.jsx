@@ -39,7 +39,7 @@ const Properties = () => {
 
       {/* Other Components */}
      
-     <Searchcomp style={{ marginTop: '10px' }} />
+     {/* <Searchcomp style={{ marginTop: '10px' }} /> */}
 
      <Agentcard/>
       <Pagesno />
