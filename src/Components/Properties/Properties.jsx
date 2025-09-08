@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import SectionHouse from "../Middlesection/SectionHouseimg";
 import Searchcomp from "../Searchcomp";
 import Feturedcard from "../Middlesection/Feturedcard";
 import Pagesno from "../Pagesno";

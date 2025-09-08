@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect } from "react";
-import SectionHouse from "../Middlesection/SectionHouseimg";
 import Searchcomp from "../Searchcomp";
-import Feturedcard from "../Middlesection/Feturedcard";
+
 import Pagesno from "../Pagesno";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Agentcard from "./Agentcard";
 
 const Properties = () => {
   const [hover, setHover] = useState(false);
@@ -41,8 +41,7 @@ const Properties = () => {
      
      <Searchcomp style={{ marginTop: '10px' }} />
 
-      <Feturedcard />
-      <Feturedcard />
+     <Agentcard/>
       <Pagesno />
     </>
   );

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import BlogData from "../../assets/Blogdata";
-import SectionHouse from "../Middlesection/SectionHouseimg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Houseimg2 from "../Middlesection/Houseimg2";
