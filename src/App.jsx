@@ -29,6 +29,7 @@ import Properties from './Components/Properties/Properties';
 import Agents from './Components/Agents/Agents';
 import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact';
+import NotFound from './Components/Pagenotfound';
 
 
 const App = () => {
@@ -45,6 +46,7 @@ const App = () => {
         <Route path='/agents' element={<Agents/>}/>
         <Route path='/blog' element={<Blog/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
 
        <Footer/>
